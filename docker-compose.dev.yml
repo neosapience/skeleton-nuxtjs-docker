@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  ui:
+    command: "yarn run dev"
+    volumes:
+    - ./src:/opt/webapp

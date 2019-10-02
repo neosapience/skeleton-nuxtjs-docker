@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  audiobook-ui:
+    image: quay.io/neos/typecast-actor-dashboard:dev
+    environment:
+    - HOST=0.0.0.0
+    - PORT=3000
+    ports:
+    - 3000

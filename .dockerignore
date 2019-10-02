@@ -1,0 +1,5 @@
+Makefile
+docker-compose*
+.git/
+src/.nuxt/
+src/node_modules/
