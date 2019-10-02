@@ -8,9 +8,9 @@ init:
 		-v ${pwd}/src:/opt/webapp \
 		${name}:dev \
 		yarn create nuxt-app app
- 	
+
 	@mv src/app/* src/
-    @mv src/app/.* src/
+	@mv src/app/.* src/
 	@rmdir src/app
 
 build:
