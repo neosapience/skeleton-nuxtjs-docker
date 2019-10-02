@@ -15,3 +15,11 @@
 ```
 $ make init
 ```
+
+## Build && Start Development
+
+```
+$ make build
+$ make up
+```
+
